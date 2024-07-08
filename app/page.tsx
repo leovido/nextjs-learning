@@ -9,7 +9,6 @@ export default function Page() {
   return (
     <main className="flex min-h-screen flex-col p-6">
       <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
-        <div className={styles.shape} />
 
         {/* <div
           className="h-0 w-0 border-b-[30px] border-l-[20px] border-r-[20px] border-b-black border-l-transparent border-r-transparent"
@@ -44,8 +43,8 @@ export default function Page() {
             src="/hero-mobile.png"
             width={560}
             height={620}
-            className="block md:block"
-            alt="Screenshots of the dashboard project showing desktop version"
+            className="block md:hidden"
+            alt="Screenshot of the dashboard project showing mobile version"
           />
         </div>
       </div>
